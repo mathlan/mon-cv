@@ -327,8 +327,8 @@ footer a {
 }
 @media (max-width: 599px) {
   .change-hover1 p {
-    font-size: 2vw;
-    line-height: 2vw;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
   }
 }
 
