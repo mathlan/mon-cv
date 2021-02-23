@@ -305,12 +305,12 @@ footer a {
 
 /* ---------------------------------------------------------- Responsive ---------------------------------------------------------- */
 
-@media (min-width: 365px) {
+@media (max-width: 365px) {
   .change-scoping {
     top: 10%;
   }
   .change-padding-robot {
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
 /* ----------------------------------------- That's All Folks! ----------------------------------------- */
