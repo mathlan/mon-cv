@@ -185,12 +185,12 @@ a:hover {
   text-align: center;
   line-height: 1.5;
 }
-.padding-bot-robot {
-  padding-bottom: 40px;
-}
 
 /* ---------------------------------------------------------- FORMATIONS ---------------------------------------------------------- */
 
+.padding-robot {
+  padding-bottom: 40px;
+}
 #formations h2 {
   color: #ec4646;
 }
