@@ -53,12 +53,6 @@ a:hover {
 /* ----------------------------------------- Navigation ----------------------------------------- */
 /* https://getbootstrap.com/docs/4.0/components/navbar/ */
 
-.menu-button {
-  background-image: url(../img/menu-ico.png);
-  height: 45px;
-  width: 45px;
-}
-
 /* -_-_-_-_-_-_-_-_-_-_- Barre & puces -_-_-_-_-_-_-_-_-_-_- */
 .change-navbar {
   position: fixed;
