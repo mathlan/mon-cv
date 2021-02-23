@@ -21,8 +21,8 @@ a:hover {
   color: #ec4646;
 }
 .change-section-pad {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 90px;
+  padding-bottom: 0px;
 }
 
 /* ----------------------------------------- Loader ----------------------------------------- */
@@ -134,7 +134,7 @@ a:hover {
 
 .hive1 {
   height: auto;
-  width: 35%;
+  width: 30%;
   display: block;
   margin-left: 55%;
   margin-right: auto;
@@ -145,7 +145,7 @@ a:hover {
   height: auto;
   width: 35%;
   display: block;
-  margin: 8% auto 8% 5%;
+  margin: 8% auto 0 5%;
   max-width: 500px;
 }
 
@@ -154,7 +154,7 @@ a:hover {
 #banner {
   background-image: url(../img/cockpit-drawing.png);
   background-repeat: no-repeat;
-  height: 127vh;
+  height: 117vh;
   min-height: 375px;
   min-width: auto;
   position: relative;
@@ -186,6 +186,7 @@ a:hover {
   text-align: center;
   line-height: 1.5;
 }
+
 
 /* ---------------------------------------------------------- FORMATIONS ---------------------------------------------------------- */
 
@@ -243,8 +244,9 @@ a:hover {
   transform: translateX(104.15%);
   left: 0%;
   bottom: 17.5%;
+  min-width: 200px;
+  min-height: auto;
 }
-.hover1 h3,
 .hover1 p {
   position: relative;
   padding: 0 0px 0 18px;
@@ -277,6 +279,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 100%;
+  padding-top: 5%;
 }
 .padding-bot-footer {
   position: relative;
@@ -308,11 +311,15 @@ footer a {
 
 @media (max-width: 365px) {
   .change-scoping {
-    top: 10%;
+    top: 20%;
   }
-  .change-padding-robot {
+  /*.change-padding-robot {
     padding-top: 30px;
+  }*/
+  .change-height-banner {
+    height: 50%;
   }
+}
 @media (max-width: 1639px) {
   .change-hover1 p {
     font-size: 100%;
@@ -327,8 +334,8 @@ footer a {
 }
 @media (max-width: 599px) {
   .change-hover1 p {
-    font-size: 1.9vw;
-    line-height: 1.9vw;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
   }
 }
 
