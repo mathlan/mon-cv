@@ -313,5 +313,23 @@ footer a {
   .change-padding-robot {
     padding-top: 30px;
   }
+@media (max-width: 1639px) {
+  .change-hover1 p {
+    font-size: 100%;
+    line-height: 150%;
+  }
+}
+@media (max-width: 1235px) {
+  .change-hover1 p {
+    font-size: 1.7vw;
+    line-height: 1.7vw;
+  }
+}
+@media (max-width: 599px) {
+  .change-hover1 p {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+}
 
 /* ----------------------------------------- That's All Folks! ----------------------------------------- */
