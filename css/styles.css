@@ -155,11 +155,8 @@ a:hover {
   height: auto;
   width: 35%;
   display: block;
-  margin-left: 5%;
-  margin-right: auto;
+  margin: 8% auto 8% 5%;
   max-width: 500px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 /* ---------------------------------------------------------- BANNER ---------------------------------------------------------- */
@@ -182,7 +179,7 @@ a:hover {
   justify-content: center;
 }
 .change-banner-text-container-inner {
-  margin-top: -150px;
+  margin-top: -282px; /* -235 */
   margin-left: 20px;
 }
 .change-banner-title {
@@ -286,7 +283,7 @@ a:hover {
 /* ---------------------------------------------------------- EXPERIENCE ---------------------------------------------------------- */
 
 #experience {
-  background-image: url(../img/mecha-footer.png);
+  background-image: url(../img/mecha-footer.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 100%;
