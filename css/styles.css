@@ -385,5 +385,20 @@ footer a {
     line-height: 1.8vw;
   }
 }
+@media (max-width: 992px) {
+  .change-project {
+    padding-bottom: 65%;
+  }
+}
+@media (max-width: 767px) {
+  .change-hive {
+    margin-left: 38%;
+  }
+}
+@media (max-width: 329px) {
+  .change-banner-title {
+    font-size: xx-large;
+  }
+}
 
 /* ----------------------------------------- That's All Folks! ----------------------------------------- */
